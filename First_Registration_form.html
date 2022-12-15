@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Registration Form </title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+        <form action="/register">
+            <fieldset>
+                <legend> Personal Information </legend>
+                <label for="firstname"> First Name : </label>
+                <input type="text" id="firstname" name="firstname">
+                <br><br>
+                <label for="lastname"> Last Name : </label>
+                <input type="text" id="lastname" name="lastname">
+                <br><br>
+                <label for="email"> Email : </label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend> Educational Qualifications </legend>
+                <label for="hdegree"> Highest Degree Achieved</label>
+                <input type="text" list="Education_Level">
+                <datalist id="Education_Level">
+                    <option value="Chilling Like A Villain"></option>
+                    <option value="High School Diploma or GED"></option>
+                    <option value="Some College"></option>
+                    <option value="Associates Degree"></option>
+                    <option value="Bachelor's Degree"></option>
+                    <option value="Master's Diploma"></option>
+                    <option value="Junior Doctorate"></option>
+                    <option value="Doctorate"></option>
+                    <option value="Other Education"><br>
+                        <label for="Other">Other Education</label>
+                    <input type="text" id="Other" name="Other">   
+                    </datalist>
+                <br><br>
+                <label for="Collegename"> College name</label>
+                <input type="text" id="Collegename" name="Collegename">
+                <br><br>
+                <label for="University">University name </label>
+                <input type="text" id="University" name="University">
+                <br><br>
+                <input type="submit" value="Submit">
+                <br><br>
+                
+            </fieldset>
+        </form>
+</body>
+</html>
