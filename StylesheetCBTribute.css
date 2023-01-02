@@ -1,0 +1,15 @@
+fieldset {
+    background-color: #dbdb;
+   }
+   
+   img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     
+   }
+   
+   h3, h5 {
+     text-align: center;
+     border: 3px solid #3e3e22;
+   }
